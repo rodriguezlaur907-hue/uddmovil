@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "130030861282",
+    "project_id": "farmacialareina-a56a2",
+    "storage_bucket": "farmacialareina-a56a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130030861282:android:b4f5c4128bb8a159a3d7bb",
+        "android_client_info": {
+          "package_name": "com.example.certamen2_garateojedarodriguez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130030861282-ko2g6stl9k4dsot1ed1tbho3uk83i7lk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.certamen2_garateojedarodriguez",
+            "certificate_hash": "8eeb0d5bb08a24d230aed1d3112cef4ba5892bc5"
+          }
+        },
+        {
+          "client_id": "130030861282-ugk69d5vbnedcr7nesb9e7cs414rsvb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG92_MjK4sRIwi3AyD_ZJ2NA357NNaNdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130030861282-ugk69d5vbnedcr7nesb9e7cs414rsvb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
