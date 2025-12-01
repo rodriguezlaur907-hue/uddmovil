@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "130030861282-a9me0qeehfk6addu05tob8c3rt19al1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.certamen2_garateojedarodriguez",
+            "certificate_hash": "b1f9881e25706814ba0bc3cfedb2573912e47763"
+          }
+        },
+        {
           "client_id": "130030861282-ko2g6stl9k4dsot1ed1tbho3uk83i7lk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

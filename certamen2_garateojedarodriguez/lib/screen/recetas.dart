@@ -127,7 +127,6 @@ class _RecetasScreenState extends State<RecetasScreen> {
         padding: const EdgeInsets.all(16.0),
         child: Column(
           children: [
-            // StreamBuilder para mostrar recetas en tiempo real
             Expanded(
               child: StreamBuilder<QuerySnapshot>(
                 stream: _firestore
@@ -135,7 +134,6 @@ class _RecetasScreenState extends State<RecetasScreen> {
                     .orderBy('fecha', descending: true)
                     .snapshots(),
                 builder: (context, snapshot) {
-                  // Manejo de estados
                   if (snapshot.hasError) {
                     return Center(
                       child: Text(

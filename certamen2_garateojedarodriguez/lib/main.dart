@@ -22,7 +22,6 @@ Future<void> main() async {
       ),
     );
   } on FirebaseException catch (e) {
-    // Si la app ya estaba inicializada, ignora el error
     if (e.code != 'duplicate-app') rethrow;
   }
 

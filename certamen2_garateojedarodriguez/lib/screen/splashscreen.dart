@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:certamen2_garateojedarodriguez/screen/Bottombar.dart';
-
+import 'package:certamen2_garateojedarodriguez/screen/login.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -29,8 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (context) => const RootScreen()),
-
+          MaterialPageRoute(builder: (context) => const LoginScreen()),
         );
       });
     });
@@ -42,14 +39,21 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Theme.of(context).colorScheme.primary,
       body: Center(
         child: AnimatedOpacity(
-          duration: const Duration(milliseconds: 500),
+          duration: const Duration(milliseconds: 300),
           opacity: opacity,
-          child: Text(
-            'Farmacia la Reina',
-            style: TextStyle(
-              fontSize: 24,
-              color: Theme.of(context).colorScheme.onPrimary,
-            ),
+          child: Image.network(
+            'https://media.discordapp.net/attachments/1135945444271337593/1440150767515205632/logo_lareina.png?ex=692d972b&is=692c45ab&hm=88bdb5578b14364f05d1df314ed056727d69bcfac504e018c1aa3cd1deec3899&=&format=webp&quality=lossless&width=471&height=140',
+            width: 250,
+            height: 250,
+            errorBuilder: (context, error, stackTrace) {
+              return Text(
+                'Farmacia la Reina',
+                style: TextStyle(
+                  fontSize: 24,
+                  color: Theme.of(context).colorScheme.onPrimary,
+                ),
+              );
+            },
           ),
         ),
       ),
